@@ -25,12 +25,12 @@ Data are structured as js object key : value<br/>
 			date : timestamp
 		}
 	}
-</code>
-EG:
+</code><br/>
+EG:<br/>
 <code>
 	{
 		ogre : {
-			nano-korg : {
+			nanoKorg : {
 				2 : 134,
 				25 : 14
 			}
