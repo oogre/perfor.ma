@@ -10,20 +10,20 @@ It allow you to share control data.
 <h2>Works</h2>
 <p>
 Each player diffuse on his channel.<br/>
+Each time you update a value, you send on your channel an event contains an object<br/>
 Data are structured as js object key : value<br/>
 <ul>
 	<li>Keys are controler's name you update</li>
 	<li>Values are controller's position you update. [0-127]</li>
-<ul>
-Each time you update a value, you send on your channel an event contains an object like this one : 
+</ul>
 <code>
-	{
-		usernName : {
-			instrumentName : {
-				key : value,
-				date : timestamp
-			}
-		}
+	{\n
+		\tusernName : {\n
+		\t\tinstrumentName : {\n
+		\t\t\t	key : value,\n
+		\t\t\t	date : timestamp\n
+		\t\t	}\n
+		\t}\n
 	}
 </code>
 </p>
