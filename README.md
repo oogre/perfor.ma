@@ -17,15 +17,29 @@ Data are structured as js object key : value<br/>
 	<li>Values are controller's position you update. [0-127]</li>
 </ul>
 <code>
-	{\n
-		\tusernName : {\n
-		\t\tinstrumentName : {\n
-		\t\t\t	key : value,\n
-		\t\t\t	date : timestamp\n
-		\t\t	}\n
-		\t}\n
+	{
+		usernName : {
+			instrumentName : {
+				key : value
+			}
+			date : timestamp
+		}
 	}
 </code>
+EG:
+<code>
+	{
+		ogre : {
+			nano-korg : {
+				2 : 134,
+				25 : 14
+			}
+			date : 1370098295085
+		}
+	}
+</code>
+
+
 </p>
 <h2>Dependencies</h2>
 <ul>
