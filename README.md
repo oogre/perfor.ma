@@ -24,7 +24,7 @@ test
 	<code>
 		{
 			userNames : ['ogre'],
-			ogre : [{
+			ogre : {
 				instrumentNames : ['nanoKorg', 'midiController'],
 				nanoKorg : {
 					2 : 134,
