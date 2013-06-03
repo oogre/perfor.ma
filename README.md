@@ -10,16 +10,24 @@ perfor.ma
 	It allow you to share control data. 
 </p>
 
+<h2>Definitions</h2>
+<p>
+	<i>PLayer</i> : 
+		-> Phantom : who only recieve data
+		-> Actor : who recieve and send data
+		-> Altruist : who share data without getting from outside
+</p>
+
+
 <h2>Works</h2>
 <p>
 	Each player diffuse on his channel.<br/>
-	Each time you update a value, you send on your channel an event contains an object<br/>
+	Each time player update a controller's value, it send on channel an event contains updated value<br/>
 	Data are structured as js object key : value<br/>
 	<ul>
-		<li>Keys are controler's name you update</li>
-		<li>Values are controller's position you update. [0-127]</li>
+		<li>Keys are controler's id you update</li>
+		<li>Values are controller you update's position. [0-127]</li>
 	</ul>
-
 	<code>
 		{
 			userNames : ['ogre'],
